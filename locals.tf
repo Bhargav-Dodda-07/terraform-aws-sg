@@ -4,5 +4,5 @@ locals {
         Environment = var.environment
         Terraform = true
     }
-    commom_name_suffix = "${var.project_name}-${var.environment}"  # roboshop-dev
+    common_name_suffix = "${var.project_name}-${var.environment}"  # roboshop-dev
 }
